@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logging</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="circle">
+          <img
+            src="./image/WhatsApp Image 2024-11-25 at 4.54.17 PM.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="title">Title</div>
+        <div class="content">
+          <div class="box1">
+            <form action="submit" class="custom-form">
+              <div>
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" />
+                <span class="error"></span>
+              </div>
+              <div>
+                <label for="email">User Email</label>
+                <input type="email" id="email" name="email" />
+                <span class="error"></span>
+              </div>
+              <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" />
+                <span class="error"></span>
+              </div>
+              <div>
+                <label for="confirmPassword">Confirm Password</label>
+                <input
+                  type="password"
+                  id="confirmPassword"
+                  name="confirmPassword"
+                />
+                <span class="error"></span>
+              </div>
+              <div>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" />
+                <span class="error"></span>
+              </div>
+              <div>
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country" />
+              </div>
+              <div>
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender">
+                  <option value="">Select</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+                <span class="error"></span>
+              </div>
+              <div class="clr-div">
+                <label for="color">Favorite Color</label>
+                <input type="color" id="color" name="color" value="#800000" />
+              </div>
+              <div>
+                <label for="opinion">Opinion</label>
+                <textarea id="opinion" name="opinion" rows="7" cols="34"></textarea>
+              </div>
+              <div>
+                <label for="terms">
+                  <input type="checkbox" id="terms" name="terms" />
+                  I agree to the terms and conditions
+                </label>
+              </div>
+              <button type="submit" class="btn-submit">Submit</button>
+            </form>
+          </div>
+          <div class="box2">
+            <div class="small-box1"></div>
+            <div class="small-box2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cursor1"></div>
+    <div class="cursor2"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
